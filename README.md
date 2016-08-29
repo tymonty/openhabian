@@ -1,17 +1,17 @@
 # openHABian
 
-Hassle-free [openHAB 2](http://openhab.org) Raspbian image as a minimal unattended netinstaller for Raspberry Pi Models 1B, 1B+, 2B and 3B.
+Hassle-free [openHAB 2](http://openhab.org) Raspbian image as a minimal unattended netinstaller for Raspberry Pi Models Zero, 1B, 1B+, 2B and 3B.
 
 > This project is based on the powerful [raspbian-ua-netinst](https://github.com/debian-pi/raspbian-ua-netinst) and most technical details can be taken from there.
 
 The provided image of only 64MB contains a minimal boot system. This system will then install Raspbian followed by openHAB and a set of useful tools. All packages will be downloaded in their newest version.
 
 * openHAB 2 latest snapshot (package repository)
-* Oracle Java 8 (including keys needed for my.openhab)
+* Oracle Java 8 (*build 1.8.0_101*, needed for my.openhab)
 * Samba (preconfigured)
 * custom .bashrc and .vimrc
 * openHAB syntax highlighting in vim and nano
-* uses whole SD card by default
+* uses whole SD card by default (8GB or 16GB SD card sufficient)
 * 16MB GPU memory split
 * useful packages like screen, mc, htop ...
 
